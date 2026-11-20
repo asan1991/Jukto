@@ -1,0 +1,16 @@
+# Build output
+build/
+DerivedData/
+*.xcodeproj/
+Jukto/Info.plist
+Jukto/Jukto.entitlements
+
+# Downloaded third-party binaries (fetched by scripts/fetch-binaries.sh, never committed)
+Jukto/Resources/bin/*
+!Jukto/Resources/bin/.gitkeep
+Jukto/Resources/ffmpeg-tag.txt
+
+# macOS / editors
+.DS_Store
+xcuserdata/
+*.swp
